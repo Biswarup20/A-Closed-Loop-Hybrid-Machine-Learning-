@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+# Libraries for machine learning and evaluation
 from sklearn.model_selection import train_test_split, StratifiedKFold, cross_validate
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
